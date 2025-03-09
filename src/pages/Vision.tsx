@@ -13,7 +13,8 @@ const Vision: React.FC = () => {
         >
           <h1 className="text-4xl font-bold mb-8 text-center">Our Vision</h1>
           <div className="prose prose-invert max-w-none">
-            {/* İçerik buraya eklenecek */}
+          <p>Our vision is primarily to ensure permanence and continuous growth. The Vanth ecosystem will move forward in the strategy of becoming a well-established project by developing the NFT collection, token and game project and useful applications supported by artificial intelligence. In doing so, we will work with other proven web3 projects and make partnership agreements to provide more benefits. </p>
+            <p>Price stability, innovation and staying up-to-date in the evolving web3 world are other top priorities.</p>
           </div>
         </motion.div>
       </div>

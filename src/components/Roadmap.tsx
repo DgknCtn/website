@@ -6,16 +6,17 @@ const Roadmap: React.FC = () => {
     {
       title: "2025 Q1",
       items: [
-        "Concept Development: Create a unique narrative and artistic vision for each special character in the collection.",
-        "Community Building: Build a strong community on social platforms (twitter and discord).",
-        "Art Creation: Design and finalize the artwork, take inspiration from the best and ensure high quality.",
-        "Launch Strategy: Collaborate with DAOs and other NFT projects to best promote the project."
+        "Create a unique narrative and artistic vision for each special character in the collection.",
+        "Build a strong community on social platforms (Twitter and Discord).",
+        "Design and finalize the artwork, take inspiration from the best and ensure high quality.",
+        "Collaborate with DAOs and other NFT projects to best promote the project."
       ]
     },
     {
       title: "2025 Q2",
       items: [
-        "Make the community the most predatory and open the first printing phase of the collection to whitelisted contributors, followed by transparent and fair sale to the public.",
+        "Creating a system that instantly answers questions and directs new participants by integrating AI chatbots on our Discord server.",
+        "Make the community the most predatory and open the first mint phase of the collection to whitelisted contributors, followed by transparent and fair sale to the public.",
         "Early adopters gain first access to key roles and interactive features.",
         "Special incentive services for Rare and Legend NFT owners."
       ]
@@ -40,8 +41,11 @@ const Roadmap: React.FC = () => {
     {
       title: "2026",
       items: [
+        "AI + AR integrations for utilisation of NFTs in the physical world: For example, you will be able to animate your NFT in the real world with the phone camera.",
         "Game integration: Develop a play-to-win (P2E) game featuring the NFT collection as in-game characters, assets.",
-        "Private chat rooms created for owners to network and keep the community alive."
+        "Private chat rooms created for owners to network and keep the community alive.",
+        "The community will be allowed to produce stories, songs or fan art for the collection and the best ones will be rewarded.",
+        "Opportunities such as workshops with Web3 experts or career counselling will be offered."
       ]
     }
   ];
