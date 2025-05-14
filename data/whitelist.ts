@@ -1,0 +1,5 @@
+export const whitelistAddresses = [
+  "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+  "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+  // Diğer whitelist adreslerini buraya ekleyin
+]; 

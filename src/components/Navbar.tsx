@@ -11,6 +11,7 @@ const Navbar: React.FC = () => {
   const menuItems = [
     { title: 'Home', path: '/' },
     { title: 'Stake', path: '/stake' },
+    { title: 'Whitelist Control', path: '/whitelist-checker' },
     {
       title: 'About',
       submenu: [
