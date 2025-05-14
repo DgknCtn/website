@@ -42,6 +42,12 @@ const Header: React.FC = () => {
             >
               Whitepaper
             </Link>
+            <Link
+              to="/wlchecker"
+              className="text-white hover:text-cyan-400 transition-colors px-3 py-2"
+            >
+              Whitelist Control
+            </Link>
           </nav>
 
           {/* Empty div for spacing */}

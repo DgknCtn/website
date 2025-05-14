@@ -11,6 +11,7 @@ import About from './pages/About';
 import Vision from './pages/Vision';
 import Story from './pages/Story';
 import FAQ from './pages/FAQ';
+import WhitelistChecker from './pages/wlchecker';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/vision" element={<Vision />} />
             <Route path="/story" element={<Story />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/wlchecker" element={<WhitelistChecker />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

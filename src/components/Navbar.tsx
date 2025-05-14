@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
   const menuItems = [
     { title: 'Home', path: '/' },
     { title: 'Stake', path: '/stake' },
-    { title: 'Whitelist Control', path: '/whitelist-checker' },
+    { title: 'Whitelist Control', path: '/wlchecker' },
     {
       title: 'About',
       submenu: [
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
             </button>
             
             <AnimatePresence>
-              {isAboutOpen && (
+              {isAboutOpen && item.submenu && (
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
