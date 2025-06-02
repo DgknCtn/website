@@ -233,3 +233,5 @@ const WhitelistChecker = () => {
 };
 
 export default WhitelistChecker; 
+
+<!-- Bu bir test satırıdır -->
