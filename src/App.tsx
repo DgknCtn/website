@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Stake from './pages/Stake';
-import Roadmap from './pages/Roadmap';
-import Whitepaper from './pages/Whitepaper';
 import NotFound from './pages/NotFound';
 import banner from './assets/banner.png';
 import About from './pages/About';
@@ -31,8 +29,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/stake" element={<Stake />} />
-            <Route path="/roadmap" element={<Roadmap />} />
-            <Route path="/whitepaper" element={<Whitepaper />} />
             <Route path="/about" element={<About />} />
             <Route path="/vision" element={<Vision />} />
             <Route path="/story" element={<Story />} />

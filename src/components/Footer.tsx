@@ -101,7 +101,7 @@ const Footer: React.FC = () => {
                 <Twitter className="w-6 h-6" />
               </a>
               <a
-                href="https://discord.com/invite/wYdKFtEZMF"
+                href="https://discord.gg/vanth"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-cyan-400 transition-colors p-2 rounded-lg hover:bg-cyan-500/10"

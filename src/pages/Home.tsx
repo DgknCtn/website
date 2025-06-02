@@ -30,7 +30,7 @@ const Home: React.FC = () => {
             className="flex justify-center gap-4 mb-12"
           >
             <a
-              href="https://discord.com/invite/wYdKFtEZMF"
+              href="https://discord.gg/vanth"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-vanth-primary transition-colors"
@@ -132,7 +132,7 @@ const Home: React.FC = () => {
             </p>
             <div className="flex justify-center gap-6">
               <motion.a
-                href="https://discord.com/invite/wYdKFtEZMF"
+                href="https://discord.gg/vanth"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-vanth-primary transition-colors"
@@ -183,7 +183,7 @@ const Home: React.FC = () => {
 
       {/* Copyright */}
       <div className="py-8 text-center text-gray-400 text-sm">
-        2024 Vanth. All rights reserved
+        2025 Vanth. All rights reserved
       </div>
     </div>
   );

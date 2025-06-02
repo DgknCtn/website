@@ -11,7 +11,7 @@ const SocialSidebar: React.FC = () => {
     {
       name: 'Discord',
       icon: <MessageCircle className="h-6 w-6" />,
-      url: 'https://discord.com/invite/wYdKFtEZMF',
+      url: 'https://discord.gg/vanth',
     },
   ];
 

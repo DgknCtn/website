@@ -155,7 +155,7 @@ const WhitelistChecker = () => {
 
           <Box sx={{ display: 'flex', justifyContent: 'center', mb: 3 }}>
             <ReCAPTCHA
-              sitekey="6LdJD1MrAAAAABDrLAo5amMik_uKh5gBQlLcFvzC" // Buraya yeni aldığınız Site Key'i yazın
+              sitekey="6LfBXzorAAAAADhc4RHtGrQjy0CxS4Ss9a4Bx8cx" // Buraya yeni aldığınız Site Key'i yazın
               onChange={handleRecaptchaChange}
               theme="dark"
             />
@@ -234,4 +234,3 @@ const WhitelistChecker = () => {
 
 export default WhitelistChecker; 
 
-<!-- Bu bir test satırıdır -->
