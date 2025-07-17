@@ -43,10 +43,10 @@ const Header: React.FC = () => {
               Whitepaper
             </Link>
             <Link
-              to="/wlchecker"
+              to="/whitelist"
               className="text-white hover:text-cyan-400 transition-colors px-3 py-2"
             >
-              Whitelist Control
+              Whitelist
             </Link>
           </nav>
 

@@ -3,7 +3,8 @@ import { Box, Container, TextField, Button, Typography, Paper, useTheme, useMedi
 import { whitelistAddresses } from '../data/whitelist';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-const WhitelistChecker = () => {
+// WhitelistChecker -> Whitelist olarak değiştirildi
+const Whitelist = () => {
   const [address, setAddress] = useState('');
   const [result, setResult] = useState<string | null>(null);
   const [isVerified, setIsVerified] = useState(false);
@@ -232,5 +233,5 @@ const WhitelistChecker = () => {
   );
 };
 
-export default WhitelistChecker; 
+export default Whitelist; 
 
